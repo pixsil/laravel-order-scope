@@ -1,5 +1,7 @@
 <?php
 
+// version 3: added trait
+
 namespace App\Models\Concerns;
 
 use App\Scopes\OrderScope;
