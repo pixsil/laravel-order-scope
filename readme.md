@@ -15,6 +15,9 @@ For a quick install, run this from your project root:
 ```bash
 mkdir -p app/Scopes
 wget https://raw.githubusercontent.com/pixsil/laravel-order-scope/main/scopes/OrderScope.php -O app/Scopes/OrderScope.php
+
+mkdir -p app/Models/Traits
+wget https://raw.githubusercontent.com/pixsil/laravel-order-scope/main/traits/OrderTrait.php -O app/Models/Traits/OrderTrait.php
 ```
 
 ## Usage
