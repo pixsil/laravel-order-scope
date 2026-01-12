@@ -40,9 +40,3 @@ If you want the order scope to always be applied, use the following model method
         static::addGlobalScope(new OrderScope);
     }
 ```
-
-If you want, I can also adapt this to:
-
-* use a custom column name
-* support ascending or descending order
-* allow per-model configuration
